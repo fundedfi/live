@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root { color-scheme: dark; }
+html { scroll-behavior: smooth; }
+body { background: #07111F; color: white; }
+
+.bg-grid {
+  background-image:
+    linear-gradient(rgba(0,229,255,.09) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(0,229,255,.09) 1px, transparent 1px);
+  background-size: 42px 42px;
+}
+
+.glass {
+  background: rgba(255,255,255,.07);
+  border: 1px solid rgba(255,255,255,.14);
+  box-shadow: 0 20px 70px rgba(0,0,0,.3);
+  backdrop-filter: blur(16px);
+}
