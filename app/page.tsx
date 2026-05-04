@@ -1,4 +1,4 @@
-import CTAButton from '../../components/CTAButton'
+import CTAButton from '../components/CTAButton'
 
 const checks = [
   'Business age and entity readiness',
