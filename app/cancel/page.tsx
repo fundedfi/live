@@ -1,4 +1,4 @@
-import CTAButton from '@/components/CTAButton'
+import CTAButton from '../../components/CTAButton'
 
 export default function CancelPage() {
   return (
